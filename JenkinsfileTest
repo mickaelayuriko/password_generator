@@ -26,3 +26,9 @@ pipeline{
         }
 
         stage('Production'){
+            steps{
+            echo 'This is Production.'
+            }
+        }
+    }
+}
